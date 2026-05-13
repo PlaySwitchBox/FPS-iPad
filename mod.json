@@ -1,23 +1,16 @@
 {
-    "geode": "4.1.2",
+    "id": "deinname.fps-mod",
+    "name": "Custom FPS",
+    "version": "v1.0.0",
+    "geode": "5.7.1",
     "gd": {
-        "android": "2.2081",
-        "ios": "2.2081",
-        "mac": "2.2081",
-        "win": "2.2081"
+        "win": "2.207",
+        "mac": "2.207",
+        "ios": "2.208"
     },
-    "id": "yourname.fpschanger",
-    "name": "FPS Changer",
-    "version": "1.0.0",
-    "developer": "YourName",
-    "description": "Ermöglicht das Ändern der FPS in den erweiterten Grafikeinstellungen. Ideal für 120Hz Displays wie das iPad Pro.",
-    "tags": ["gameplay", "graphics", "qol"],
-    "settings": {
-        "fps-value": {
-            "type": "int",
-            "default": 60,
-            "name": "FPS Wert",
-            "description": "Ziel-FPS für das Spiel"
-        }
+    "tags": ["fps", "graphics", "utility"],
+    "links": {
+        "source": "https://github.com/deine-repo",
+        "discord": "https://discord.gg/dein-link"
     }
 }
